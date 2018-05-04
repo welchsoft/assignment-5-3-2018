@@ -4,8 +4,8 @@ base_input = []
 backward_output = []
 
 #break the string into an array of characters
-for c in user_input:
-    base_input.append(c)
+for char in user_input:
+    base_input.append(char)
 
 print(f"input item {base_input}")
 

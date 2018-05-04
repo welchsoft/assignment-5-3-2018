@@ -19,7 +19,7 @@ for words in user_words:
     else:
         word_bank[words]=1
 
-#work in progress I need to figure out how to selelect from each
+#sort the list and then print it in reverse order stopping at the items, might break?
 sorted_words = sorted(word_bank.items(), key=lambda x: x[1])
 print("most used words")
 print(sorted_words[len(sorted_words):len(sorted_words) - 4:-1])
